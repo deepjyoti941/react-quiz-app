@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.navbar {
+  border-bottom: 1px solid #EAEAEA;
+  box-shadow: 0 1px 2px -1px #EAEAEA;
+  margin-bottom: 50px
+}
+
+.card > .card-header, .card > .card-footer {
+  background-color: white;
+}
+
+.login-btn {
+  margin-right: 5px;
+}
+
+.questionText {
+  padding-left: 5px
+}
+
+.list-group > .list-group-item {
+  border-color: white;
+  padding-left: 0
+}
+.App-intro {
+  font-size: large;
+}
+.question-builder-footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /*position: fixed;
+   bottom: 0;
+   left:0;
+   width: 100%;
+   height: 60px;
+   line-height: 60px;
+   background-color: #f5f5f5;*/
+}
+.question-builder-footer > .card > .card-body {
+  background-color: #FAFAFA
+}
+
+.borderless > tbody > tr > td, .borderless > thead > tr > th {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+input, textarea{
+  background-color:#FAFAFA !important;
+  /*color: #CACACA !important;*/
+}
+
+.question-card-header {
+  border: 1px solid #EAEAEA;
+  background-color: #FAFAFA;
+}
+
+.question-card-header > .question-actions {
+  background-color: #FFFF;
+  border-right: 1px solid #EAEAEA;
+}
+
+.question-card-body {
+  margin-top: 20px;
+  border: 1px solid #EAEAEA;
+  background-color: #FFFF;
+}
+.question-card-body div:nth-child(1) {
+  background-color: #FAFAFA;
+}
+
+.question-card-body div:nth-child(3) {
+  background-color: #FAFAFA;
+  border-left: 1px solid #EAEAEA;
+}
+
+.student-list-container {
+  flex: 1 0 auto;
+  border: 1px solid rgb(234, 234, 234);
+  padding-top: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
